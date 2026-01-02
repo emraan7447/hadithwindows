@@ -19,7 +19,7 @@ with open("data/bukhari.json", encoding="utf-8") as f:
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 def get_urdu_explanation(text):
-    model = genai.GenerativeModel("gemini-pro")
+    model = genai.GenerativeModel("gemini-1.5-flash")
     r = model.generate_content(
         f"Explain this hadith briefly in simple Urdu:\n{text}"
     )
@@ -87,3 +87,4 @@ Dialogue:0,0:00:08.00,0:00:20.00,Urdu,,,{urdu_exp}
 
     subprocess.call(cmd, shell=True)
     st.video(out)
+
