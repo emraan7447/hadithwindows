@@ -1,0 +1,22 @@
+{
+  "hadiths": [
+    {
+      "id": "bukhari_1",
+      "reference": "Sahih Bukhari – Hadith 1",
+      "arabic": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ",
+      "urdu": "اعمال کا دار و مدار نیتوں پر ہے۔",
+      "urdu_explanation": "اس حدیث کا مفہوم یہ ہے کہ ہر عمل کا دار و مدار نیت پر ہوتا ہے۔",
+      "contains_dua": true,
+      "dua_arabic": "اللهم تقبل منا"
+    },
+    {
+      "id": "bukhari_2",
+      "reference": "Sahih Bukhari – Hadith 2",
+      "arabic": "الدِّينُ النَّصِيحَةُ",
+      "urdu": "دین خیر خواہی کا نام ہے۔",
+      "urdu_explanation": "یہ حدیث ہمیں سکھاتی ہے کہ دین میں اخلاص اور خیر خواہی بنیادی حیثیت رکھتی ہے۔",
+      "contains_dua": false,
+      "dua_arabic": ""
+    }
+  ]
+}
